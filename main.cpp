@@ -6,7 +6,7 @@
 #define MD_MIN_FSPD 15.0
 #define MD_MAX_FSPD 60.0
 
-#include "test.h"
+#include "arena.h"
 
 // Global stuff
 int mpos[2] = {320, 200}; // Mouse coordinates
@@ -36,7 +36,7 @@ int main(int argc, char* args[]){
     srand(time1);
     
     // Game related stuff
-    MD_test test;
+    MD_arena arena;
   
     //Game loop
     while(inloop){
@@ -78,7 +78,7 @@ int main(int argc, char* args[]){
       boxRGBA(win, -5, -5, wsiz[0] + 5, wsiz[1] + 5, 255, 255, 255, 255);
       
       // Draw test output
-      test.display(win, mpos, fspd);
+      arena.display(win);
       
       //Swap double buffer
       SDL_Flip(win);

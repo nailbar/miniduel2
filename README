@@ -8,6 +8,8 @@ something similar.
 Developement plan =========================================
  * Units shown on map
  * Camera follows unit
+ * Ships made of parts
+ * Basic parts (core, hull, thruster, blaster)
 
 Changes done ==============================================
 
