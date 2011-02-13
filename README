@@ -1,1 +1,14 @@
-Whaa?
+MiniDuel2 =================================================
+
+Not too clear yet on what it's going to be but aiming for
+a self playing space game where the players are randomly
+generated and gets better using genetic algorithm or
+something similar.
+
+Developement plan =========================================
+ * Units shown on map
+ * Camera follows unit
+
+Changes done ==============================================
+
+===========================================================
