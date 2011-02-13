@@ -6,14 +6,15 @@
 #define MD_MIN_FSPD 15.0
 #define MD_MAX_FSPD 60.0
 
-#include "arena.h"
-
 // Global stuff
 int mpos[2] = {320, 200}; // Mouse coordinates
 int wsiz[2] = {800, 600}; // Window size
 float fspd; // Seconds per frame
 Uint8* keys; // Keyboard input
 Uint8 mkeys; // Mouse keys
+
+// Game parts to include
+#include "arena.h"
 
 int main(int argc, char* args[]){
   
